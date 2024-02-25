@@ -51,6 +51,7 @@ class Solution(db.Model):
 #    user=User.query.get(int(user_id))
 #    return user
 
+# new cap here
 
 if __name__=='__main__':
     db.create_all()
